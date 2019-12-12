@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76448ddd-d22b-4a2e-9246-30e5d33a46f8" name="Default Changelist" comment="" />
+    <list default="true" id="76448ddd-d22b-4a2e-9246-30e5d33a46f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../PubApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PubApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PubApplication/public/alcoholicDrinks/cider.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PubApplication/public/alcoholicDrinks/cider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PubApplication/public/alcoholicDrinks/gin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PubApplication/public/alcoholicDrinks/gin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PubApplication/public/alcoholicDrinks/whiskey.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PubApplication/public/alcoholicDrinks/whiskey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +19,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UqiFo3TmY7rvT9WIZ0hF98BUka" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,15 +40,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -54,11 +65,23 @@
       <workItem from="1576090425542" duration="3773000" />
       <workItem from="1576152498321" duration="2004000" />
       <workItem from="1576156589895" duration="1442000" />
+      <workItem from="1576165472495" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="470" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1576156594308">

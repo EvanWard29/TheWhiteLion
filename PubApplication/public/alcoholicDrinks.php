@@ -9,7 +9,7 @@
             <div class="w3-container">
                 <button class="collapsible"><img src="../assets/img/cider.jpg" style="width: 183.75px; height: 120px; border: 5px solid black;">&nbsp;&nbsp; Draught & Bottled Cider</button>
                 <div class="content">
-                    <?php include 'alcoholicDrinks/cider.html' ?>
+                    <?php include 'alcoholicDrinks/cider.php' ?>
                 </div>
 
             </div>
