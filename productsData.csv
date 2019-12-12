@@ -1,0 +1,56 @@
+productID,productName,productDescription,productType,stockAmount,price
+1,Kopparberg Strawberry & Lime on Draught,NULL,cider,32,2.79
+2,Strongbow Dark Fruits,NULL,cider,25,2.69
+3,Magners,NULL,cider,43,1.99
+4,Strongbow,NULL,cider,34,2.65
+5,Thatchers Gold,NULL,cider,23,2.69
+6,Kopparberg Mixed Fruit,NULL,cider,43,2.45
+7,Kapparberg Strawberry & Lime,NULL,cider,38,2.45
+8,Bulmers No 17,NULL,cider,28,3.39
+9,Sadler's 1861 White Beer,NULL,beer,35,2.99
+10,Thornbridge Versa Weisse Beer,NULL,beer,30,1.99
+11,Blue Moon Belgian White,NULL,beer,37,1.99
+12,Birra Moretti,NULL,beer,32,3.15
+13,Tsingtao,NULL,beer,26,3.15
+14,Budweiser,NULL,beer,44,3.45
+15,Peroni,NULL,beer,41,3.29
+16,Newcastle Brown Ale,NULL,beer,33,2.95
+17,Corona,NULL,beer,36,3.25
+18,Beefeater London Blood Orange,The fresh citrus flavours of blood orange tune perfectly with the classic notes of juniper and citrus of Beefeater Gin.,gin,32,2.9
+19,Gordon's Pink Gin,"Refreshing taste of Gordon's with the natural sweetness of raspberries and strawberries, with the tang of redcurrant served up in a unique blushing tone.",gin,25,2.9
+20,Bombay Sapphire,"A London dry gin infused with 10 botanicals. Fresh citrus and juniper flavours with a light, spicy finish.",gin,31,2.9
+21,Tanqueray,"A perfect balance of four botanicals - juniper, coriander, angelica and liquorice.",gin,29,2.9
+22,Hendrick's Gin,"In addition to the traditional juniper infusion, Hendrick's uses Bulgarian rose and cucumber to add flavour.",gin,24,3.4
+23,GinTing,"Fresh, fruity Gin using the finest botanicals & natural flavours: Passionfruit, Mango and Elderflower.",gin,32,3.4
+24,Didsbury Gin Raspberry & Elderflower,"A blend of fresh and dried lemon, lime, orange and grapefruit peels perfectly balance with classic gin botanicals.",gin,30,3.4
+25,Gin Fizz,"Gin, juice, sugar, syrup, and egg white.",gin,37,2.9
+26,Gin and Ginger,NULL,gin,26,3.4
+27,Smirnoff,NULL,vodka,43,3.4
+28,Stolichnaya,NULL,vodka,38,3.4
+29,Skyy,NULL,vodka,34,3.4
+30,Absolut,NULL,vodka,41,3.4
+31,Grey Goose,NULL,vodka,32,4.4
+32,Captain Morgan Original Spiced Gold,NULL,rum,45,1.99
+33,Captain Morgan White,NULL,rum,41,1.99
+34,Bacardi Carta Blanca,NULL,rum,38,3.5
+35,The Kraken Black Spiced,NULL,rum,32,3.5
+36,Havana Club 7-year-old,NULL,rum,30,3.5
+37,Red Leg Spiced,NULL,rum,29,3.5
+38,Ron Zacapa,NULL,rum,23,4.5
+39,Haig Club Clubman,"Notes of vanilla and dried fruits result in a light, sweet and vibrant taste with a smooth, clean finish.",whiskey,40,1.99
+40,Bell's,"A select blend of grain and fine malt whiskies, all matured in selected oak casks for a richer flavour.",whiskey,39,2.5
+41,The Famous Grouse,"Well-balanced oak, fruitiness with a hint of citrus.",whiskey,35,2.7
+42,Jameson,"Spicy, nutty and vanilla notes.",whiskey,31,3.35
+43,Jack Daniel's,"Charcoal mellowed, a balance of sweet and oaky flavours.",whiskey,34,3.55
+44,Chardonnay,NULL,wine,17,2.85
+45,Pinot Grigio,NULL,wine,19,2.85
+46,Merlot,NULL,wine,20,2.85
+47,Shiraz,NULL,wine,21,2.85
+48,White Zinfandel Rosé,NULL,wine,20,2.85
+49,Villa Maria Sauvignon Blanc,NULL,wine,12,14.29
+50,Hardys Chardonnay,NULL,wine,13,9.69
+51,Hardys Pinot Grigio,NULL,wine,16,9.69
+52,Wolf Blass Sparkling Brut,NULL,champagne,13,9.99
+53,Teresa Rizzi Prosecco DOC,NULL,champagne,18,3.85
+54,Teresa Rizzi Sparkling Rosé,NULL,champagne,20,3.85
+55,Denbies Whitedowns Brut,NULL,champagne,11,19.99
