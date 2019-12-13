@@ -15,16 +15,18 @@ while($i < count($productTypes))
             foreach($results as $row) {
                 ?>
                 <div class="w3-row">
-                    <div class="w3-col l9 w3-left">
-                        <p><?php echo $row['productName'] ?></p>
-                        <p style="font-size: 15px"><?php echo $row['productDescription'] ?></p>
-                    </div>
-                    <div class="w3-col l1 w3-left"><p><?php echo $row['price'] ?></p></div>
-                    <div class="w3-col l2 w3-left">
-                        <p>
-                            <button class="w3-btn w3-teal w3-round-xlarge>">Add Item</button>
-                        </p>
-                    </div>
+                    <form method="post" action="index.php?action=add&id=<?php echo $row['productID'] ?>">
+                        <div class="w3-col l9 w3-left">
+                            <p><?php echo $row['productName'] ?></p>
+                            <p style="font-size: 15px"><?php echo $row['productDescription'] ?></p>
+                        </div>
+                        <div class="w3-col l1 w3-left"><p><?php echo $row['price'] ?></p></div>
+                        <div class="w3-col l2 w3-left">
+                            <p>
+                                <input type="submit" name="addOrder" class="w3-btn w3-teal w3-round-xlarge>">Add Item</input>
+                            </p>
+                        </div>
+                    </form>
                 </div>
                 <?php
             }

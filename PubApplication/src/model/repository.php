@@ -1,5 +1,6 @@
 <?php
 include 'product.php';
+include 'customer.php';
 
 class Repository
 {
@@ -9,6 +10,7 @@ class Repository
     private $dbDatabase = 'ISAD251_EWard';
     private $dataSourceName;
     private $connection;
+    private $id;
 
     public function __construct(PDO $connection = null)
     {
@@ -37,6 +39,40 @@ class Repository
         $resultSet = $statement->fetchAll(PDO::FETCH_ASSOC);
 
         return $resultSet;
+    }
+
+    public function getLastID()
+    {
+        $sql = "CALL getLastID()";
+        $statement = $this->connection->prepare($sql);
+        $statement->execute();
+
+        $result = $statement->fetchColumn();
+
+        $this->id = $result;
+
+        return $result;
+    }
+
+    public function getID()
+    {
+        return $this->id;
+    }
+
+    public function insertCustomer($db)
+    {
+        $customer = new Customer($db->getID(), 'Jack Howells', '2000-05-14');
+
+        $name = $customer->name();
+        $DOB = $customer->dob();
+
+        $sql = "CALL AddCustomer(:p_CustomerName,:p_DOB)";
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':p_CustomerName', $name, PDO::PARAM_STR);
+        $statement->bindParam(':p_DOB', $DOB, PDO::PARAM_STR);
+
+        $statement->execute();
+        echo 'Maybe Worked?';
     }
 
 

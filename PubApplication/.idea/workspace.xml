@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0215f40-99a7-4778-866c-9425ec972bf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/crisps.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fizzy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/juice.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/mixer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/productType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final ERD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQL Queries/CreateCustomers.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQL Queries/CreateOrders.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/customer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/alcoholicDrinks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks/beer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks/champagne.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks/cider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks/gin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks/rum.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks/vodka.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks/whiskey.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks/wine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/snacks.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/snacks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/softDrinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/softDrinks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/productType.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/productType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +49,6 @@
         <item name="MySQL - CW" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="isad251_eward: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - CW" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="isad251_eward: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="cw_products: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -111,7 +93,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Example" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -168,7 +150,7 @@
       <workItem from="1576072105421" duration="705000" />
       <workItem from="1576152472615" duration="1306000" />
       <workItem from="1576165440974" duration="10353000" />
-      <workItem from="1576241916233" duration="3162000" />
+      <workItem from="1576241916233" duration="15847000" />
     </task>
     <servers />
   </component>
