@@ -1,6 +1,5 @@
 <?php
-
-include_once 'product.php';
+include 'product.php';
 
 class Repository
 {
@@ -28,12 +27,12 @@ class Repository
             echo 'Connection failed: ', $err->getMessage();
         }
     }
-    public function getAll()
+    public function getAll($type)
     {
-        $sql = "SELECT * FROM CW_Products ";
+        $sql = "SELECT * FROM CW_Products WHERE productType = ?";
 
         $statement = $this->connection->prepare($sql);
-        $statement->execute();
+        $statement->execute([$type]);
 
         $resultSet = $statement->fetchAll(PDO::FETCH_ASSOC);
 
