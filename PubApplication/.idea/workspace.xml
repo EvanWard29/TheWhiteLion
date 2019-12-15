@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0215f40-99a7-4778-866c-9425ec972bf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Final ERD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySQL Queries/CreateCustomers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySQL Queries/CreateOrders.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/config/orderSession.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/mainMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mainMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/alcoholicDrinks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/order.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/productType.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/productType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/snacks.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/snacks.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,13 +88,19 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../shoppingCart" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -151,6 +158,8 @@
       <workItem from="1576152472615" duration="1306000" />
       <workItem from="1576165440974" duration="10353000" />
       <workItem from="1576241916233" duration="15847000" />
+      <workItem from="1576368339786" duration="1344000" />
+      <workItem from="1576424460721" duration="6712000" />
     </task>
     <servers />
   </component>
@@ -172,5 +181,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1576368954359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576368954359" />
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1576369041357">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1576369041357" />
   </component>
 </project>

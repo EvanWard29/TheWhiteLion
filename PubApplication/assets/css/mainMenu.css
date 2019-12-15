@@ -50,3 +50,10 @@ p{
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
 }
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

@@ -1,16 +1,14 @@
-
+<?php include_once '../assets/config/orderSession.php';?>
 <head>
     <link rel="stylesheet" href="../assets/css/mainMenu.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <html>
 <title>The White Lion Pub</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-
-</style>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -21,7 +19,7 @@
         <div class="w3-right w3-hide-small">
 
             <a href="index.php#menu" class="w3-bar-item w3-button">Menu</a>
-            <a href="" class="w3-bar-item w3-button">Order</a>
+            <a href="order.php" class="w3-bar-item w3-button">Order</a>
 
         </div>
     </div>
