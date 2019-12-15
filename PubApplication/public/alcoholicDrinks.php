@@ -1,4 +1,5 @@
-<?php include_once 'header.php';?>
+<?php include_once 'header.php';
+//include '../assets/config/orderSession.php';?>
 
 <body>
 <div class="w3-content" style="max-width:1100px">
@@ -8,6 +9,7 @@
             <?php
                 $productTypes = ['cider', 'beer', 'gin', 'vodka', 'rum', 'whiskey', 'wine', 'champagne'];
                 include 'productType.php';
+
             ?>
         </div>
     </div>

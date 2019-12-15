@@ -19,26 +19,26 @@ class Product
 
     public function id()
     {
-        $this->id;
+        return $this->id;
     }
 
     public function name()
     {
-        $this->name;
+        return $this->name;
     }
 
     public function description()
     {
-        $this->description;
+        return $this->description;
     }
 
     public function type()
     {
-        $this->type;
+        return $this->type;
     }
 
     public function price()
     {
-        $this->price;
+        return $this->price;
     }
 }

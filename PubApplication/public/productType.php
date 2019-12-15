@@ -12,19 +12,25 @@ while($i < count($productTypes))
             $db = new repository();
             $results = $db->getAll(lcfirst($productTypes[$i]));
 
-            foreach($results as $row) {
+            foreach($results as $product) {
                 ?>
                 <div class="w3-row">
-                    <div class="w3-col l9 w3-left">
-                        <p><?php echo $row['productName'] ?></p>
-                        <p style="font-size: 15px"><?php echo $row['productDescription'] ?></p>
-                    </div>
-                    <div class="w3-col l1 w3-left"><p><?php echo $row['price'] ?></p></div>
-                    <div class="w3-col l2 w3-left">
-                        <p>
-                            <button class="w3-btn w3-teal w3-round-xlarge>">Add Item</button>
-                        </p>
-                    </div>
+                    <form method="post" action="<?php echo basename($_SERVER['PHP_SELF'])?>?action=add&productID=<?php echo $product['productID'] ?>">
+                        <div class="w3-col l9 w3-left">
+                            <p><?php echo $product['productName'] ?></p>
+                            <p style="font-size: 15px"><?php echo $product['productDescription'] ?></p>
+                        </div>
+                        <div class="w3-col l1 w3-left"><p>£<?php echo $product['price'] ?></p></div>
+                        <div class="w3-col l2 w3-left">
+                            <p>
+                                <input type="hidden" name="productName" value="<?php echo $product['productName'] ?>">
+                                <input type="hidden" name="price" value="<?php echo $product['price'] ?>">
+                                <label>Quantity:<input type="text" name="quantity" style="width:19%" value="1"></label>
+                                <input type="submit" name="addOrder" style="margin-top:5px" value="Add Item" class="w3-btn w3-teal w3-round-xlarge>">
+
+                            </p>
+                        </div>
+                    </form>
                 </div>
                 <?php
             }

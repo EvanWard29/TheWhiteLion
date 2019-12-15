@@ -4,7 +4,7 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-    <div class="w3-container w3-black ">
+    <div class="w3-container w3-black" style="margin-top: 10px">
         <h4 class="pubName">The White Lion</h4>
         <h2 class="pubDescription">The Finest Pub in Plymouth</h2>
     </div>

@@ -1,4 +1,4 @@
-<?php include_once 'header.php'; ?>
+<?php include_once 'header.php';?>
 
 <body>
 <div class="w3-content" style="max-width:1100px">
