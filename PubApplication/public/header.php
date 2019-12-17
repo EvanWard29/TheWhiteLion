@@ -1,4 +1,4 @@
-<?php include_once '../assets/config/orderSession.php';?>
+<?php include_once '../assets/config/orderSession.php'?>
 <head>
     <link rel="stylesheet" href="../assets/css/mainMenu.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -19,7 +19,7 @@
         <div class="w3-right w3-hide-small">
 
             <a href="index.php#menu" class="w3-bar-item w3-button">Menu</a>
-            <a href="order.php" class="w3-bar-item w3-button">Order</a>
+            <a href="orderPage.php" class="w3-bar-item w3-button">Order</a>
 
         </div>
     </div>

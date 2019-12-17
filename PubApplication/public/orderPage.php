@@ -1,4 +1,7 @@
 <?php include_once 'header.php'; include '../src/model/repository.php';?>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+</head>
 <style>
     .order{
         font-family: "Playfair Display";
@@ -49,27 +52,68 @@
                                 <td align="right"><b>£<?php echo number_format($total, 2) ?></b></td>
                                 <td></td>
                             </tr>
-                            <tr>
-                                <td colspan="5">
-                                    <?php
-                                    if (isset($_SESSION['order'])) {
-                                        if (count($_SESSION['order']) > 0) {
-                                            ?>
-                                            <a href="#" class="btn btn-success">Checkout</a>
-                                            <?php
-                                        }
-                                    }
-                                    ?>
-                                </td>
-                            </tr>
                             <?php
                         }?>
 
                 </table>
+                <form class="w3-container w3-card-4" style="font-family: 'Playfair Display';" method="post" action="<?php echo basename($_SERVER['PHP_SELF'])?>">
+                      <h1 class="w3-text-black">Confirm Order</h1>
+                      <p>To Confirm Order, Enter Name and Date of Birth</p>
+                      <p>
+                          <label class="w3-text-blue"><b>Name</b></label>
+                          <input class="w3-input w3-border" id="name" name="name" type="text">
+                      </p>
+                      <p>
+                          <label class="w3-text-blue"><b>Date of Birth</b></label>
+                          <input class="w3-input w3-border" id="dob" name="dob" type="text">
+                      </p>
+                      <p>
+                          <label class="w3-text-blue"><b>Table Number</b></label>
+                          <input class="w3-input w3-border" id="tableNo" name="tableNo" type="text">
+                      </p>
+                      <p>
+                      <?php
+                            if (isset($_SESSION['order'])) {
+                                if (count($_SESSION['order']) > 0) {
+                                    ?>
+                                    <input type="submit" name="checkout" class="btn btn-success" value="Checkout">
+                                    <?php
+                                }
+                            }
+                        ?>
+                </form>
             </div>
         </div>
     </div>
     <?php include_once 'footer.php';?>
 </body>
 
+<?php
 
+if(isset($_POST['checkout']))
+{
+    while(true)
+    {
+        $date = validateDate($_POST['dob']);
+        if($date === true)
+        {
+            include '../src/controller/processOrder.php';
+            break;
+        }
+        break;
+    }
+
+}
+
+function validateDate($date)
+{
+    if(date('Y-m-d', strtotime($date)) == $date)
+    {
+        return true;
+    }
+    else
+    {
+        echo "<script type='text/javascript'>alert('Incorrect Date Format, Please Try Again')</script>";
+        return false;
+    }
+}

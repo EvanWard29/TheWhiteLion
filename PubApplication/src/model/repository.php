@@ -1,6 +1,9 @@
 <?php
 include 'product.php';
 include 'customer.php';
+include 'orderItem.php';
+include 'order.php';
+
 
 class Repository
 {
@@ -10,7 +13,6 @@ class Repository
     private $dbDatabase = 'ISAD251_EWard';
     private $dataSourceName;
     private $connection;
-    private $id;
 
     public function __construct(PDO $connection = null)
     {
@@ -41,30 +43,30 @@ class Repository
         return $resultSet;
     }
 
-    public function getLastID()
+    public function getLastOrderID()
     {
-        $sql = "CALL getLastID()";
+        $sql = "CALL getLastOrderID()";
         $statement = $this->connection->prepare($sql);
         $statement->execute();
 
         $result = $statement->fetchColumn();
-
-        $this->id = $result;
-
         return $result;
     }
 
-    public function getID()
+    public function getLastCustomerID()
     {
-        return $this->id;
+        $sql = "CALL getLastCustomerID()";
+        $statement = $this->connection->prepare($sql);
+        $statement->execute();
+
+        $result = $statement->fetchColumn();
+        return $result;
     }
 
-    public function insertCustomer($db)
+    public function insertCustomer($customer)
     {
-        $customer = new Customer($db->getID(), 'Jack Howells', '2000-05-14');
-
-        $name = $customer->name();
-        $DOB = $customer->dob();
+        $name = $customer->getName();
+        $DOB = $customer->getDOB();
 
         $sql = "CALL AddCustomer(:p_CustomerName,:p_DOB)";
         $statement = $this->connection->prepare($sql);
@@ -72,8 +74,71 @@ class Repository
         $statement->bindParam(':p_DOB', $DOB, PDO::PARAM_STR);
 
         $statement->execute();
-        echo 'Maybe Worked?';
     }
 
+    public function getCustomer($name, $dob)
+    {
+        $sql = "CALL getCustomer(:CustomerName, :dob)";
 
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':CustomerName', $name, PDO::PARAM_STR);
+        $statement->bindParam(':dob', $dob, PDO::PARAM_STR);
+
+        $statement->execute();
+        $result = $statement->fetchAll();
+
+        return $result;
+    }
+
+    public function insertOrder($order)
+    {
+        $sql = "CALL addOrder(:CustomerID, :TableNo)";
+
+        $customerID = $order->getCustomerID();
+        $tableNo = $order->getTableNo();
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':CustomerID', $customerID, PDO::PARAM_INT);
+        $statement->bindParam(':TableNo', $tableNo, PDO::PARAM_INT);
+
+        $statement->execute();
+    }
+
+    public function insertOrderItem($orderItem)
+    {
+        $sql = "CALL addOrderItem(:OrderID, :ItemID, :ProductID, :Quantity)";
+
+        $orderID = $orderItem->getOrderID();
+        $itemID = $orderItem->getItemID();
+        $productID = $orderItem->getProductID();
+        $quantity = $orderItem->getQuantity();
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':OrderID', $orderID, PDO::PARAM_INT);
+        $statement->bindParam(':ItemID', $itemID, PDO::PARAM_INT);
+        $statement->bindParam(':ProductID', $productID, PDO::PARAM_INT);
+        $statement->bindParam(':Quantity', $quantity, PDO::PARAM_INT);
+
+        $statement->execute();
+    }
+
+    public function addProduct($product)
+    {
+        $sql = "CALL addProduct(:ProductID, :ProductName, :ProductDescription, :ProductType, :Price)";
+
+        $productID = $product->getID();
+        $productName = $product->getName();
+        $productDescription = $product->getDescription();
+        $productType = $product->getType();
+        $price = $product->getPrice();
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':ProductID', $productID, PDO::PARAM_INT);
+        $statement->bindParam(':ProductName', $productName, PDO::PARAM_STR);
+        $statement->bindParam(':ProductDescription', $productDescription, PDO::PARAM_STR);
+        $statement->bindParam(':ProductType', $productType, PDO::PARAM_STR);
+        $statement->bindParam(':Price', $price, PDO::PARAM_STR);
+
+        $statement->execute();
+    }
 }
