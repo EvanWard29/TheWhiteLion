@@ -17,27 +17,27 @@ class Product
         $this->price = $price;
     }
 
-    public function id()
+    public function getID()
     {
         return $this->id;
     }
 
-    public function name()
+    public function getName()
     {
         return $this->name;
     }
 
-    public function description()
+    public function getDescription()
     {
         return $this->description;
     }
 
-    public function type()
+    public function getType()
     {
         return $this->type;
     }
 
-    public function price()
+    public function getPrice()
     {
         return $this->price;
     }

@@ -13,18 +13,18 @@ class Customer
         $this->dob = $dob;
     }
 
-    public function id()
+    public function getID()
     {
         return $this->id;
 
     }
 
-    public function name()
+    public function getName()
     {
         return $this->name;
     }
 
-    public function dob()
+    public function getDOB()
     {
         return $this->dob;
     }
