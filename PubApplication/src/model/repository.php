@@ -141,4 +141,18 @@ class Repository
 
         $statement->execute();
     }
+
+    public function adminLogin($username)
+    {
+        $sql = "CALL getAdmin(:AdminUsername)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':AdminUsername', $username, PDO::PARAM_STR);
+
+        $statement->execute();
+
+        $result = $statement->fetchColumn();
+
+        return $result;
+    }
 }

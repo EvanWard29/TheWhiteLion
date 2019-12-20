@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0215f40-99a7-4778-866c-9425ec972bf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/customerOrder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/processOrder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/orderItem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySQL Queries/StoredProcedures/PlaceOrder.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PubApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PubApplication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/addProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/alcoholicDrinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/alcoholicDrinks.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/orderPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/snacks.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/snacks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/softDrinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/softDrinks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,7 +92,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -113,14 +105,14 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\public" />
+      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\src\controller" />
+      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\public\alcoholic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\public" />
       <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\src\controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\src\controller" />
-      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\public" />
-      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\public\alcoholic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -164,7 +156,10 @@
       <workItem from="1576368339786" duration="1344000" />
       <workItem from="1576424460721" duration="13632000" />
       <workItem from="1576514029383" duration="20109000" />
-      <workItem from="1576598484359" duration="8584000" />
+      <workItem from="1576598484359" duration="9028000" />
+      <workItem from="1576695559766" duration="5450000" />
+      <workItem from="1576771365780" duration="2235000" />
+      <workItem from="1576844592972" duration="7243000" />
     </task>
     <servers />
   </component>
@@ -188,13 +183,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1576368954359">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576368954359" />
-    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1576369041357">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1576369041357" />
+    <state x="549" y="166" key="FileChooserDialogImpl" />
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
+    <state x="604" y="335" key="NewPhpFileDialog" />
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" />
   </component>
 </project>
