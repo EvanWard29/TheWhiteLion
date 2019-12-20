@@ -63,6 +63,17 @@ class Repository
         return $result;
     }
 
+    public function getLastProductID()
+    {
+        $sql = "CALL getLastProductID()";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->execute();
+        $result = $statement->fetchColumn();
+
+        return $result;
+    }
+
     public function insertCustomer($customer)
     {
         $name = $customer->getName();
@@ -140,6 +151,8 @@ class Repository
         $statement->bindParam(':Price', $price, PDO::PARAM_STR);
 
         $statement->execute();
+
+        ?><script>alert("Product Added Successfully")</script><?php
     }
 
     public function adminLogin($username)
