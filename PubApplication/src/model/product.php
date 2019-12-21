@@ -41,4 +41,19 @@ class Product
     {
         return $this->price;
     }
+
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    }
+
+    public function setPrice($price)
+    {
+        $this->price = $price;
+    }
 }

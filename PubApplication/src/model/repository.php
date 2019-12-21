@@ -168,4 +168,34 @@ class Repository
 
         return $result;
     }
+
+    public function editProduct($product)
+    {
+        $productID = $product->getID();
+        $productName = $product->getName();
+        $productDescription = $product->getDescription();
+        $price = $product->getPrice();
+
+        $sql = "CALL editProduct(:ProductID, :ProductName, :ProductDescription, :Price)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':ProductID', $productID, PDO::PARAM_INT);
+        $statement->bindParam(':ProductName', $productName, PDO::PARAM_STR);
+        $statement->bindParam(':ProductDescription', $productDescription, PDO::PARAM_STR);
+        $statement->bindParam(':Price', $price, PDO::PARAM_STR);
+
+        $statement->execute();
+    }
+
+    public function getProduct($id)
+    {
+        $sql = "CALL getProduct(:ProductID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':ProductID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $results = $statement->fetch();
+        return $results;
+    }
 }

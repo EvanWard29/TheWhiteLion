@@ -31,7 +31,6 @@
                             $total = 0;
                             foreach($_SESSION['order'] as $key => $product)
                             {?>
-
                                 <tr>
                                     <td><?php echo $product['productName'] ?></td>
                                     <td><?php echo $product['quantity'] ?></td>
