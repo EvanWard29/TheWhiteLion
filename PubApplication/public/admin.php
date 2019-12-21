@@ -20,15 +20,11 @@ include '../src/model/repository.php';
                 <h4><a href="addProduct.php">Add New Product</a></h4>
                 <p class="w3-text-grey">Add a new Drink or Snack to the database to sell.</p><br>
                 <hr>
-                <h4><a href="editProducts.php">View and Edit Product Details</a></h4>
-                <p class="w3-text-grey">View or Edit the details of all products currently for sale.</p><br>
+                <h4><a href="editProducts.php">View, Edit or Delete Products</a></h4>
+                <p class="w3-text-grey">View or Edit the details of all products currently for sale or withdraw a product completely.</p><br>
                 <hr>
                 <h4><a href="snacks.php">View Customer Orders</a></h4>
                 <p class="w3-text-grey">View past orders of customers.</p><br>
-                <hr>
-                <h4><a href="snacks.php">Withdraw Product</a></h4>
-                <p class="w3-text-grey">Remove a Product from the database and sale.</p><br>
-
             </div>
         </div>
     </div>

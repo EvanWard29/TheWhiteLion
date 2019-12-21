@@ -198,4 +198,13 @@ class Repository
         $results = $statement->fetch();
         return $results;
     }
+
+    public function removeProduct($id)
+    {
+        $sql = "CALL withdrawProduct(:ProductID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':ProductID', $id, PDO::PARAM_INT);
+        $statement->execute();
+    }
 }

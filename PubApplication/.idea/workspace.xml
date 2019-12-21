@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0215f40-99a7-4778-866c-9425ec972bf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/typeDropSelect.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/editProducts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MySQL Queries/StoredProcedures/editProduct.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQL Queries/StoredProcedures/editProduct.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/orderPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/orderPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/editProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/editProducts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -160,7 +156,7 @@
       <workItem from="1576695559766" duration="5450000" />
       <workItem from="1576771365780" duration="2235000" />
       <workItem from="1576844592972" duration="27117000" />
-      <workItem from="1576937946678" duration="3504000" />
+      <workItem from="1576937946678" duration="13712000" />
     </task>
     <servers />
   </component>

@@ -35,6 +35,7 @@
                         <th style="width:45%">Description</th>
                         <th style="width:10%">Price</th>
                         <th style="width:5%">Edit</th>
+                        <th style="width:5%">Remove</th>
                     </tr>
                     <?php
                     $db = new repository();
@@ -50,6 +51,9 @@
                                 <td><label>£<input type="text" style="width: 50%" name="price" id="price" value="<?php echo $product['price'] ?>"></label></td>
                                 <td>
                                     <input class="btn btn-primary" type="submit" value="Save" name="save">
+                                </td>
+                                <td>
+                                    <input value="Withdraw" class="btn btn-danger" type="submit" name="delete">
                                 </td>
                             </tr>
                         </form>
@@ -69,6 +73,12 @@
     {
         var x = document.getElementById("type").value;
         window.location.href="<?php echo basename($_SERVER['PHP_SELF'])?>?type=" + x;
+    }
+
+    function deleteProduct()
+    {
+        var x = confirm("Are You Sure You Want To Withdraw This Product From Sale?");
+        window.location.href="<?php echo basename($_SERVER['PHP_SELF']) . '?' . $_SERVER['QUERY_STRING']?>&delete=" + x;
     }
 </script>
 </body>
@@ -97,7 +107,22 @@ if(isset($_GET['action']))
 
         $db->editProduct($product);
     }
-}
-?>
 
+    if(isset($_POST['delete']))
+    {
+        echo "<script>deleteProduct()</script>";
+        header('Location: '.$_SERVER['REQUEST_URI']);
+    }
+}
+if(isset($_GET['delete']))
+{
+   if($_GET['delete'] == 'true')
+   {
+       $db->removeProduct($id);
+       echo "<script>alert('Product Removed')</script>";
+   }
+   else{
+       echo "<script>alert('Product Will Not Be Deleted')</script>";
+   }
+}
 
