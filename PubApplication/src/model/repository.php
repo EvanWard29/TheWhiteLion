@@ -63,6 +63,17 @@ class Repository
         return $result;
     }
 
+    public function getLastProductID()
+    {
+        $sql = "CALL getLastProductID()";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->execute();
+        $result = $statement->fetchColumn();
+
+        return $result;
+    }
+
     public function insertCustomer($customer)
     {
         $name = $customer->getName();
@@ -140,5 +151,120 @@ class Repository
         $statement->bindParam(':Price', $price, PDO::PARAM_STR);
 
         $statement->execute();
+
+        ?><script>alert("Product Added Successfully")</script><?php
+    }
+
+    public function adminLogin($username)
+    {
+        $sql = "CALL getAdmin(:AdminUsername)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':AdminUsername', $username, PDO::PARAM_STR);
+
+        $statement->execute();
+
+        $result = $statement->fetchColumn();
+
+        return $result;
+    }
+
+    public function editProduct($product)
+    {
+        $productID = $product->getID();
+        $productName = $product->getName();
+        $productDescription = $product->getDescription();
+        $price = $product->getPrice();
+
+        $sql = "CALL editProduct(:ProductID, :ProductName, :ProductDescription, :Price)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':ProductID', $productID, PDO::PARAM_INT);
+        $statement->bindParam(':ProductName', $productName, PDO::PARAM_STR);
+        $statement->bindParam(':ProductDescription', $productDescription, PDO::PARAM_STR);
+        $statement->bindParam(':Price', $price, PDO::PARAM_STR);
+
+        $statement->execute();
+    }
+
+    public function getProduct($id)
+    {
+        $sql = "CALL getProduct(:ProductID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':ProductID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $results = $statement->fetch();
+        return $results;
+    }
+
+    public function removeProduct($id)
+    {
+        $sql = "CALL withdrawProduct(:ProductID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':ProductID', $id, PDO::PARAM_INT);
+        $statement->execute();
+    }
+
+    public function getCustomerOrders($id)
+    {
+        $sql = "CALL getCustomerOrders(:CustomerID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':CustomerID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $results = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+        return $results;
+    }
+
+    public function getCustomerOrderItems($id)
+    {
+        $sql = "CALL getCustomerOrderItems(:OrderID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':OrderID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $results = $statement->fetchAll();
+        return $results;
+    }
+
+    public function getCustomerName($id)
+    {
+        $sql = "CALL getCustomerName(:CustomerID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':CustomerID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $result = $statement->fetchColumn();
+        return $result;
+    }
+
+    public function getProductName($id)
+    {
+        $sql = "CALL getProductName(:ProductID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':ProductID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $result = $statement->fetchColumn();
+        return $result;
+    }
+
+    public function getAllOrders()
+    {
+        $sql = "CALL getAllOrders()";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->execute();
+
+        $results = $statement->fetchAll(PDO::FETCH_ASSOC);
+        return $results;
     }
 }

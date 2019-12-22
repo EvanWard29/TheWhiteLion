@@ -1,4 +1,5 @@
-<?php include_once '../assets/config/orderSession.php'?>
+<?php include_once '../assets/config/orderSession.php';?>
+
 <head>
     <link rel="stylesheet" href="../assets/css/mainMenu.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -20,9 +21,17 @@
 
             <a href="index.php#menu" class="w3-bar-item w3-button">Menu</a>
             <a href="orderPage.php" class="w3-bar-item w3-button">Order</a>
+            <a href="admin.php" class="w3-bar-item w3-button">Admin</a>
+            <?php
+                if(isset($_SESSION['admin']) && $_SESSION['admin'] == 1)
+                {
+                    ?>
+                    <a href="logout.php" class="w3-bar-item w3-button">Logout</a>
+                    <?php
+                }
+            ?>
 
         </div>
     </div>
 </div>
 </html>
-
