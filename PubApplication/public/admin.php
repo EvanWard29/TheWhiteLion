@@ -23,7 +23,7 @@ include '../src/model/repository.php';
                 <h4><a href="editProducts.php">View, Edit or Delete Products</a></h4>
                 <p class="w3-text-grey">View or Edit the details of all products currently for sale or withdraw a product completely.</p><br>
                 <hr>
-                <h4><a href="snacks.php">View Customer Orders</a></h4>
+                <h4><a href="viewOrders.php">View Customer Orders</a></h4>
                 <p class="w3-text-grey">View past orders of customers.</p><br>
             </div>
         </div>

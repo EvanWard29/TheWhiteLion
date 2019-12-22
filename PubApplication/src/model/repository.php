@@ -207,4 +207,64 @@ class Repository
         $statement->bindParam(':ProductID', $id, PDO::PARAM_INT);
         $statement->execute();
     }
+
+    public function getCustomerOrders($id)
+    {
+        $sql = "CALL getCustomerOrders(:CustomerID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':CustomerID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $results = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+        return $results;
+    }
+
+    public function getCustomerOrderItems($id)
+    {
+        $sql = "CALL getCustomerOrderItems(:OrderID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':OrderID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $results = $statement->fetchAll();
+        return $results;
+    }
+
+    public function getCustomerName($id)
+    {
+        $sql = "CALL getCustomerName(:CustomerID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':CustomerID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $result = $statement->fetchColumn();
+        return $result;
+    }
+
+    public function getProductName($id)
+    {
+        $sql = "CALL getProductName(:ProductID)";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(':ProductID', $id, PDO::PARAM_INT);
+        $statement->execute();
+
+        $result = $statement->fetchColumn();
+        return $result;
+    }
+
+    public function getAllOrders()
+    {
+        $sql = "CALL getAllOrders()";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->execute();
+
+        $results = $statement->fetchAll(PDO::FETCH_ASSOC);
+        return $results;
+    }
 }

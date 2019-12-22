@@ -1,0 +1,9 @@
+DELIMITER //
+
+CREATE PROCEDURE getAllOrders()
+BEGIN
+	SELECT 
+		*
+	FROM 
+		CW_Orders;
+END;
