@@ -1,0 +1,108 @@
+"productID","productName","productDescription","productType","price"
+1,"Kopparberg Strawberry & Lime on Draught","The blend of ripe strawberry flavour energised by zingy lime delivers a fruity and refreshing cider.","cider",3.23
+2,"Strongbow Dark Fruits","Cider with Blackcurrant and Blackberry Juices and Flavours.","cider",2.79
+3,"Magners","Premium Irish Cider crafted with the finest blend of 17 Apple Varieties, picked from our orchards in Clonmel, Tipperary.","cider",1.99
+4,"Strongbow","A blend of the bittersweet cider apples, grown and pressed in Herefordshire.","cider",2.59
+5,"Thatchers Gold","A medium dry golden cider, with a smooth and refreshing taste. Crafted from a blend of our favourite apples including Dabinett, Porters Perfection and Harry Masters Jersey.","cider",2.65
+6,"Kopparberg Mixed Fruit","Apple cider infused with raspberry and blackcurrant delivers a truly unique, fruity taste rich in colour and refreshing down to the last drop.","cider",2.45
+7,"Kopparberg Strawberry & Lime","The blend of ripe strawberry flavour energised by zingy lime delivers a fruity and refreshing cider.","cider",2.79
+8,"Bulmers No 17","Crushed Red Berries & lime is a full flavoured mixed red berry cider, cut through with a sharp shot of lime to deliver an explosive fruit taste.","cider",3.35
+9,"Sadler's 1861 White Beer","NULL","beer",3.0
+10,"Thornbridge Versa Weisse Beer","NULL","beer",2.0
+11,"Blue Moon Belgian White","NULL","beer",2.0
+12,"Birra Moretti","NULL","beer",3.0
+13,"Tsingtao","NULL","beer",3.0
+14,"Budweiser","NULL","beer",3.0
+15,"Peroni","NULL","beer",3.0
+16,"Newcastle Brown Ale","NULL","beer",3.0
+17,"Corona","NULL","beer",3.0
+18,"Beefeater London Blood Orange","The fresh citrus flavours of blood orange tune perfectly with the classic notes of juniper and citrus of Beefeater Gin.","gin",3.0
+19,"Gordon's Pink Gin","Refreshing taste of Gordon's with the natural sweetness of raspberries and strawberries, with the tang of redcurrant served up in a unique blushing tone.","gin",3.0
+20,"Bombay Sapphire","A London dry gin infused with 10 botanicals. Fresh citrus and juniper flavours with a light, spicy finish.","gin",3.0
+21,"Tanqueray","A perfect balance of four botanicals - juniper, coriander, angelica and liquorice.","gin",3.0
+22,"Hendrick's Gin","In addition to the traditional juniper infusion, Hendrick's uses Bulgarian rose and cucumber to add flavour.","gin",3.0
+23,"GinTing","Fresh, fruity Gin using the finest botanicals & natural flavours: Passionfruit, Mango and Elderflower.","gin",3.0
+24,"Didsbury Gin Raspberry & Elderflower","A blend of fresh and dried lemon, lime, orange and grapefruit peels perfectly balance with classic gin botanicals.","gin",3.0
+25,"Gin Fizz","Gin, juice, sugar, syrup, and egg white.","gin",3.0
+26,"Gin and Ginger","NULL","gin",3.0
+27,"Smirnoff","NULL","vodka",3.0
+28,"Stolichnaya","NULL","vodka",3.0
+29,"Skyy","NULL","vodka",3.0
+30,"Absolut","NULL","vodka",3.0
+31,"Grey Goose","NULL","vodka",4.0
+32,"Captain Morgan Original Spiced Gold","NULL","rum",2.0
+33,"Captain Morgan White","NULL","rum",2.0
+34,"Bacardi Carta Blanca","NULL","rum",4.0
+35,"The Kraken Black Spiced","NULL","rum",4.0
+36,"Havana Club 7-year-old","NULL","rum",4.0
+37,"Red Leg Spiced","NULL","rum",4.0
+38,"Ron Zacapa","NULL","rum",5.0
+39,"Haig Club Clubman","Notes of vanilla and dried fruits result in a light, sweet and vibrant taste with a smooth, clean finish.","whisky",2.0
+40,"Bell's","A select blend of grain and fine malt whiskies, all matured in selected oak casks for a richer flavour.","whisky",3.0
+41,"The Famous Grouse","Well-balanced oak, fruitiness with a hint of citrus.","whisky",3.0
+42,"Jameson","Spicy, nutty and vanilla notes.","whisky",3.0
+43,"Jack Daniel's","Charcoal mellowed, a balance of sweet and oaky flavours.","whisky",4.0
+44,"Chardonnay","NULL","wine",3.0
+45,"Pinot Grigio","NULL","wine",3.0
+46,"Merlot","NULL","wine",3.0
+47,"Shiraz","NULL","wine",3.0
+48,"White Zinfandel Rosé","NULL","wine",3.0
+49,"Villa Maria Sauvignon Blanc","NULL","wine",14.0
+50,"Hardys Chardonnay","NULL","wine",10.0
+51,"Hardys Pinot Grigio","NULL","wine",10.0
+52,"Wolf Blass Sparkling Brut","A delicately flavoured Pinot Noir Chardonnay Sparkling sourced from premium Australian vineyards. A delicious lemon curd and brioche nose along with a seductive hint of honeysuckle.","champagne",10.0
+53,"Teresa Rizzi Prosecco DOC","Lighter in texture, softer on the palate with larger bubbles, and usually lower in alcohol than MCC.","champagne",3.89
+54,"Teresa Rizzi Sparkling Rosé","A sparkling wine from Prosecco Veneto with a blend based on glera grapes and presents an alcohol content of 11.5%.","champagne",4.45
+55,"Denbies Whitedowns Brut","The Denbies Vineyard Select range of wines are limited in release, produced only in the best of seasons using the finest of grapes.","champagne",19.0
+56,"Pepsi Max Cherry","Pepsi Max Cherry is the genius combination of full-on cherry cola taste, but with none of the sugar.","fizzy",1.8
+57,"Pepsi Max","Maximum Taste, No sugar - The long lasting hit of caramel and vanilla and the intense taste of a regular Pepsi all with no sugar.","fizzy",1.8
+58,"Diet Pepsi","NULL","fizzy",2.0
+59,"R White's Lemonade","NULL","fizzy",2.0
+60,"Pepsi","NULL","fizzy",2.0
+61,"Dalston's Fizzy Rhubarb","NULL","fizzy",1.0
+62,"Gunna Muscovite Lemonade & Mint","NULL","fizzy",1.0
+63,"Monster Ultra","NULL","fizzy",1.0
+64,"R White's Raspberry Lemonade","NULL","fizzy",1.0
+65,"Old Jamaica Ginger Beer","NULL","fizzy",1.0
+66,"Old Jamaica Diet Ginger Beer","NULL","fizzy",1.0
+67,"Sanpellegrino Limonata","Sparkling lemon beverage made with lemon juice from concentrate, water, sugar, carbon dioxide, natural flavors and l-ascorbic acid.","fizzy",1.0
+68,"Sanpellegrino Rossa","NULL","fizzy",1.0
+69,"Monster Mango Loco","NULL","fizzy",1.0
+70,"Monster Energy","NULL","fizzy",1.0
+71,"Innocent Super Smootie Energise","NULL","juice",1.0
+72,"Strathmore Still Spring Water","NULL","juice",2.0
+73,"Orange Juice","NULL","juice",2.0
+74,"Apple Juice","NULL","juice",2.0
+75,"Cranberry Juice","NULL","juice",2.0
+76,"Remedy Kombucha Cherry Plum","NULL","juice",2.0
+77,"J2O Orange & Passion Fruit","NULL","juice",2.0
+78,"J2O Apple & Raspberry","NULL","juice",2.0
+79,"J2O Apple & Mango","NULL","juice",2.0
+80,"Lime Cordial","NULL","juice",0.0
+81,"Blackcurrant Cordial","NULL","juice",0.0
+82,"Orange Cordial","NULL","juice",0.0
+83,"Britvic Tonic Water","NULL","mixer",1.0
+84,"Fentimans Tonic Water","NULL","mixer",1.0
+85,"Fentimans Orange Tonic Water","NULL","mixer",1.0
+86,"Britvic Ginger Ale","NULL","mixer",1.0
+87,"Britvic Bitter Lemon","NULL","mixer",1.0
+88,"Britvic Pineapple Juice","NULL","mixer",1.0
+89,"Britvic Tomato Juice","NULL","mixer",1.0
+90,"Lighlty Salted Kettle Chips","NULL","crisps",1.0
+91,"Sea Salt & Vinegar Kettle Chips","NULL","crisps",1.0
+92,"Mature Cheddar & Red Onion Kettle Chips","NULL","crisps",1.0
+93,"Sweet Chilli & Sour Cream Kettle Chips","NULL","crisps",1.0
+94,"KP Original Salted Peanuts","NULL","nuts",1.0
+95,"KP Dry Roasted Peanuts","NULL","nuts",1.0
+96,"KP Salted Cashews","NULL","nuts",1.0
+97,"KP Spicy Chilli Peanuts","NULL","nuts",1.0
+98,"Viennese Finger","NULL","biscuits",0.0
+99,"Stem Ginger Biscuits","NULL","biscuits",1.0
+100,"Salted Caramel Brownie Bar","NULL","biscuits",1.15
+101,"Twix","NULL","biscuits",1.0
+102,"Gingerbread Muffin","NULL","cake",2.0
+103,"Mince Tart","NULL","cake",2.0
+104,"Jaffa Cakes","NULL","cake",1.0
+105,"Mr Kipling Angel Slices","Delectable layers of pink and yellow sponge with a heavenly vanilla filling topped with fondant icing.","cake",1.0
+106,"WKD Blue","Sparkling flavoured vodka pre-mix drink, made by blending mixed fruit flavours with triple distilled vodka.","cider",2.75
+107,"Smirnoff Ice","A malt beverage with a light, fruity flavor that's on the sweet side.","cider",2.59

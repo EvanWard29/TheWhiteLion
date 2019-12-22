@@ -7,7 +7,7 @@
             <h1 class="w3-center" style="font-size: 40px"><u>Snacks</u></h1><br>
             <?php
             $productTypes = ['crisps', 'nuts', 'biscuits', 'cake'];
-            include 'productType.php';
+            include '../src/view/productType.php';
             ?>
         </div>
     </div>
