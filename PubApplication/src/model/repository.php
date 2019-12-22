@@ -31,7 +31,8 @@ class Repository
             echo 'Connection failed: ', $err->getMessage();
         }
     }
-    public function getAll($type)
+
+    public function getAllProducts($type)
     {
         $sql = "SELECT * FROM CW_Products WHERE productType = ?";
 
@@ -110,6 +111,7 @@ class Repository
 
         $statement = $this->connection->prepare($sql);
         $statement->bindParam(':CustomerID', $customerID, PDO::PARAM_INT);
+
         $statement->bindParam(':TableNo', $tableNo, PDO::PARAM_INT);
 
         $statement->execute();
@@ -119,10 +121,10 @@ class Repository
     {
         $sql = "CALL addOrderItem(:OrderID, :ItemID, :ProductID, :Quantity)";
 
-        $orderID = $orderItem->getOrderID();
-        $itemID = $orderItem->getItemID();
-        $productID = $orderItem->getProductID();
-        $quantity = $orderItem->getQuantity();
+        echo $orderID = $orderItem->getOrderID() . " ";
+        echo $itemID = $orderItem->getItemID() . " ";
+        echo $productID = $orderItem->getProductID() . " ";
+        echo $quantity = $orderItem->getQuantity();
 
         $statement = $this->connection->prepare($sql);
         $statement->bindParam(':OrderID', $orderID, PDO::PARAM_INT);

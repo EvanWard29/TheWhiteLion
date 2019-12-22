@@ -34,4 +34,24 @@ class Order
     {
         return $this->tableNo;
     }
+
+    public function setOrderID($id)
+    {
+        $this->orderID = $id;
+    }
+
+    public function setCustomerID($id)
+    {
+        $this->customerID = $id;
+    }
+
+    public function setOrderDate($date)
+    {
+        $this->orderDate = $date;
+    }
+
+    public function setTableNo($tableNo)
+    {
+        $this->tableNo = $tableNo;
+    }
 }

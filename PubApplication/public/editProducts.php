@@ -39,7 +39,7 @@
                     </tr>
                     <?php
                     $db = new repository();
-                    $results = $db->getAll($type);
+                    $results = $db->getAllProducts($type);
 
                     foreach($results as $product)
                     {
@@ -125,4 +125,6 @@ if(isset($_GET['delete']))
        echo "<script>alert('Product Will Not Be Deleted')</script>";
    }
 }
+
+include 'footer.php';
 

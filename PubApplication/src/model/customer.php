@@ -28,4 +28,19 @@ class Customer
     {
         return $this->dob;
     }
+
+    public function setID($id)
+    {
+        $this->id = $id;
+    }
+
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    public function setDOB($dob)
+    {
+        $this->dob = $dob;
+    }
 }

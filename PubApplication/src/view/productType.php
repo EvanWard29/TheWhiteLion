@@ -7,10 +7,10 @@ while($i < count($productTypes))
         <button class="collapsible" ><img src = "../assets/img/<?php echo $productTypes[$i] ?>.jpg" alt="<?php echo $productTypes[$i] ?>" style = "width: 183.75px; height: 120px; border: 5px solid black;" >&nbsp;&nbsp; <?php echo ucfirst($productTypes[$i]) ?> </button >
         <div class="content" >
             <?php
-            include_once '../model/repository.php';
+            include_once '../src/model/repository.php';
 
             $db = new repository();
-            $results = $db->getAll(lcfirst($productTypes[$i]));
+            $results = $db->getAllProducts(lcfirst($productTypes[$i]));
 
             foreach($results as $product) {
                 ?>
