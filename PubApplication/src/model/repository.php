@@ -269,4 +269,15 @@ class Repository
         $results = $statement->fetchAll(PDO::FETCH_ASSOC);
         return $results;
     }
+
+    public function getOrderTotal($orderID)
+    {
+        $sql = "SELECT TotalCost FROM sales WHERE orderID = ?";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->execute([$orderID]);
+
+        $result = $statement->fetchColumn();
+        return $result;
+    }
 }
