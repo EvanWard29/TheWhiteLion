@@ -14,7 +14,7 @@ This application is designed to be a minimum viable product for a system that al
 * Admins can all past orders of customer or search for a customer's past orders using a Customer ID.
 
 #### How It Works
-The application uses HTML and PHP to communicate with a MySQL database to retrieve details of the products for sale and any past orders.
+The application uses HTML and PHP to communicate with a MySQL database to retrieve details of the products for sale and any past orders. **IMPORTANT:** To access Admin functionality enter **"admin"** as the **Username** and the **Password**.
 
 #### Screenshots
 
