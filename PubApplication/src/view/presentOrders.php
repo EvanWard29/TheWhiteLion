@@ -6,6 +6,7 @@
     </tr>
     <tr style="font-size: 18px">
         <td>Order ID</td>
+        <td>Customer ID</td>
         <td>Order Date</td>
         <td>Table Number</td>
         <td>Order Total</td>
@@ -22,6 +23,7 @@
         ?>
         <tr>
         <td rowspan="<?php echo $span ?>"><?php echo $order->getOrderID() ?></td>
+        <td rowspan="<?php echo $span ?>"><?php echo $order->getCustomerID() ?></td>
         <td rowspan="<?php echo $span ?>"><?php echo $order->getOrderDate() ?></td>
         <td rowspan="<?php echo $span ?>"><?php echo $order->getTableNo() ?></td>
         <td rowspan="<?php echo $span ?>">£<?php echo $db->getOrderTotal($order->getOrderID()) ?></td>
