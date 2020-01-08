@@ -18,6 +18,13 @@ The application uses HTML and PHP to communicate with a MySQL database to retrie
 
 ### Screenshots
 
+#### Browser Testing
+Test performed on Microsoft Edge Browser. All functionality is working correctly.
+###### Order Page
+![Edge Order Test](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/edge_orderPage.png)
+###### View Orders
+![Edge View Orders](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/edge_viewOrders.png)
+
 ##### Main Page
 ![Main Page](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/main.png)
 ![Main Menu](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/main_menu.png)
