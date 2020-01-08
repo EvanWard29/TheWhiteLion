@@ -11,7 +11,7 @@ This application is designed to be a minimum viable product for a system that al
 * Customers can remove any products they no longer wish to order from their basket.
 * Admins can add new products to be sold.
 * Admins can View or Edit product details or Withdraw a product from sale.
-* Admins can all past orders of customer or search for a customer's past orders using a Customer ID.
+* Admins can view all past orders of customers or search for a specific customer's past orders using a Customer ID.
 
 #### How It Works
 The application uses HTML and PHP to communicate with a MySQL database to retrieve details of the products for sale and any past orders. **IMPORTANT:** To access Admin functionality enter **"admin"** as the **Username** and the **Password**.
