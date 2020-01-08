@@ -44,6 +44,18 @@ class Repository
         return $resultSet;
     }
 
+    public function getProducts()
+    {
+        $sql = "SELECT * FROM CW_Products";
+
+        $statement = $this->connection->prepare($sql);
+        $statement->execute();
+
+        $resultSet = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+        return $resultSet;
+    }
+
     public function getLastOrderID()
     {
         $sql = "CALL getLastOrderID()";

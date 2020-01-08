@@ -8,8 +8,8 @@
             <?php
                 $productTypes = ['cider', 'beer', 'gin', 'vodka', 'rum', 'whisky', 'wine', 'champagne'];
                 include '../src/view/productType.php';
-
             ?>
+            <script src="../assets/js/getProducts.js"></script>
         </div>
     </div>
 </div>
