@@ -9,6 +9,7 @@
             $productTypes = ['crisps', 'nuts', 'biscuits', 'cake'];
             include '../src/view/productType.php';
             ?>
+            <script src="../assets/js/getProducts.js"></script>
         </div>
     </div>
 </div>
