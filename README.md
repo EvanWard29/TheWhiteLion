@@ -1,4 +1,7 @@
 # ISAD251-Coursework
+##### Links:
+- Website Template From: https://www.w3schools.com/w3css/w3css_templates.asp
+- YouTube Video:
 ### Application Factsheet
 #### The Application
 This application is designed to be a minimum viable product for a system that allows a customer of a pub to order drinks or snacks from the pub's website. Customers can view and add different types of products for sale to their order. The types of products include Alcoholic Beverages, Soft Drinks and Bar Snacks. The application also allows admins (owners of the pub) to add, view, edit or withdraw products that they sell. Admins are also able to view any past customer orders by either entering a Customer ID or viewing ALL past orders. These are the top 5 functions/features of the application:
@@ -7,8 +10,6 @@ This application is designed to be a minimum viable product for a system that al
 * Admins can add new products to be sold.
 * Admins can View or Edit product details or Withdraw a product from sale.
 * Admins can all past orders of customer or search for a customer's past orders using a Customer ID.
-
-Template from: https://www.w3schools.com/w3css/w3css_templates.asp
 
 #### How It Works
 The application uses HTML and PHP to communicate with a MySQL database to retrieve details of the products for sale and any past orders.
