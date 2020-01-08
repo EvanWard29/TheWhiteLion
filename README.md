@@ -19,7 +19,8 @@ The application uses HTML and PHP to communicate with a MySQL database to retrie
 ### Screenshots
 
 #### Browser Testing
-Test performed on Microsoft Edge Browser. All functionality is working correctly.
+The main browser used during the building of this application was Google Chrome. All screenshots showing the different pages of the website and the working functionality where taken using the Chrome Browser. 
+The following two tests where performed on the Microsoft Edge Browser. All functionality is working correctly as expected. 
 ###### Order Page
 ![Edge Order Test](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/edge_orderPage.png)
 ###### View Orders
