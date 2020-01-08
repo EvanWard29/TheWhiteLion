@@ -16,7 +16,7 @@ This application is designed to be a minimum viable product for a system that al
 #### How It Works
 The application uses HTML and PHP to communicate with a MySQL database to retrieve details of the products for sale and any past orders. **IMPORTANT:** To access Admin functionality enter **"admin"** as the **Username** and the **Password**.
 
-#### Screenshots
+### Screenshots
 
 ##### Main Page
 ![Main Page](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/main.png)
