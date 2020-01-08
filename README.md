@@ -18,3 +18,27 @@ The application uses HTML and PHP to communicate with a MySQL database to retrie
 ##### Main Page
 ![Main Page](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/main.png)
 ![Main Menu](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/main_menu.png)
+
+##### Products
+###### Alcoholic Drinks
+![Alcoholic Drinks](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/alcoholic_menu.png)
+###### Soft Drinks
+![Soft Drinks](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/soft_menu.png)
+###### Snacks
+![Snacks](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/snack_menu.png)
+
+##### Order Page
+![Order Details](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/checkout.png)
+
+##### Admin
+###### Admin Login
+![Admin Login](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/admin_login.png)
+###### Admin Options
+![Admin Menu](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/admin_menu.png)
+###### Add New Product
+![New Product](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/new_product.png)
+###### View, Edit or Remove Product
+![View, Edit or Remove Products](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/edit_product.png)
+###### View Customer Orders
+![Customer Orders by ID](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/customerID_orders.png)
+![All Customer Orders](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/customer_orders.png)
