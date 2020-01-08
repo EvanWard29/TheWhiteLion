@@ -8,6 +8,7 @@
         <td>Order ID</td>
         <td>Order Date</td>
         <td>Table Number</td>
+        <td>Order Total</td>
         <td>Item ID</td>
         <td>Product ID</td>
         <td>Product Name</td>
@@ -23,6 +24,7 @@
         <td rowspan="<?php echo $span ?>"><?php echo $order->getOrderID() ?></td>
         <td rowspan="<?php echo $span ?>"><?php echo $order->getOrderDate() ?></td>
         <td rowspan="<?php echo $span ?>"><?php echo $order->getTableNo() ?></td>
+        <td rowspan="<?php echo $span ?>">£<?php echo $db->getOrderTotal($order->getOrderID()) ?></td>
 
         <?php
         foreach($orderItems as $item)
