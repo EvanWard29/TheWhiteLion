@@ -8,8 +8,12 @@ This application is designed to be a minimum viable product for a system that al
 * Admins can View or Edit product details or Withdraw a product from sale.
 * Admins can all past orders of customer or search for a customer's past orders using a Customer ID.
 
+Template from: https://www.w3schools.com/w3css/w3css_templates.asp
+
 #### How It Works
 The application uses HTML and PHP to communicate with a MySQL database to retrieve details of the products for sale and any past orders.
 
+#### Screenshots
 
+##### Main Page
 ![Main Page](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/main.png)
