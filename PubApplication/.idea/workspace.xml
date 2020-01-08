@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0215f40-99a7-4778-866c-9425ec972bf9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/presentOrders.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/presentOrders.php" afterDir="false" />
-    </list>
+    <list default="true" id="b0215f40-99a7-4778-866c-9425ec972bf9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,15 +96,15 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\public" />
-      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\src\controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\src\view" />
       <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\public" />
       <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\src\controller" />
       <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\public\alcoholic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\public" />
+      <recent name="C:\Users\LoL-1\OneDrive - University of Plymouth\ISAD251\ISAD251-Coursework\PubApplication\src\controller" />
     </key>
   </component>
   <component name="RunDashboard">
