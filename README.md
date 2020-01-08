@@ -17,3 +17,4 @@ The application uses HTML and PHP to communicate with a MySQL database to retrie
 
 ##### Main Page
 ![Main Page](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/main.png)
+![Main Menu](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/main_menu.png)
