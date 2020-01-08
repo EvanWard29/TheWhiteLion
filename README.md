@@ -1,5 +1,7 @@
 # ISAD251-Coursework
 ##### Links:
+- Application Website: http://cent-5-534.uopnet.plymouth.ac.uk/ISAD251/erward/PubApplication/public/index.php
+- API Middleware: http://cent-5-534.uopnet.plymouth.ac.uk/ISAD251/erward/PubApplication/assets/api/products.php
 - Website Template From: https://www.w3schools.com/w3css/w3css_templates.asp
 - YouTube Video:
 ### Application Factsheet
