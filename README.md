@@ -12,4 +12,4 @@ This application is designed to be a minimum viable product for a system that al
 The application uses HTML and PHP to communicate with a MySQL database to retrieve details of the products for sale and any past orders.
 
 
-![Main Page](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/Screenshots/main.png)
+![Main Page](https://github.com/EvanWard29/ISAD251-Coursework/blob/master/ApplicationDesign/Screenshots/main.png)
