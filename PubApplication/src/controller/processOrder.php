@@ -41,11 +41,11 @@ function insertOrder($db, $customer)
     $newOrder = new Order($orderID, $customerID, $date, $_POST['tableNo']);
     $db->insertOrder($newOrder);
 
-    /*foreach($_SESSION['order'] as $item)
+    foreach($_SESSION['order'] as $item)
     {
         $orderItem = new OrderItem($orderID, $itemID, $item['productID'], $item['quantity']);
         $db->insertOrderItem($orderItem);
         $itemID += 1;
 
-    }*/
+    }
 }
