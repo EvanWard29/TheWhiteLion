@@ -1,8 +1,5 @@
 # ISAD251-Coursework
 ##### Links:
-- Application Website: http://cent-5-534.uopnet.plymouth.ac.uk/ISAD251/erward/PubApplication/public/index.php
-- API Middleware: http://cent-5-534.uopnet.plymouth.ac.uk/ISAD251/erward/PubApplication/assets/api/products.php
-- Website Template From: https://www.w3schools.com/w3css/w3css_templates.asp
 - YouTube Video (480p): https://youtu.be/Op6Ynqd_0dM
 - Panopto Video (720p): https://plymouth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ec2b45fe-0dad-4c75-b172-ab3d0151a16f
 ### Application Factsheet
