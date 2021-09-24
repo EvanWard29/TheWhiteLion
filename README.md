@@ -1,7 +1,6 @@
 # ISAD251-Coursework
 ##### Links:
 - YouTube Video (480p): https://youtu.be/Op6Ynqd_0dM
-- Panopto Video (720p): https://plymouth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ec2b45fe-0dad-4c75-b172-ab3d0151a16f
 ### Application Factsheet
 #### The Application
 This application is designed to be a minimum viable product for a system that allows a customer of a pub to order drinks or snacks from the pub's website. Customers can view and add different types of products for sale to their order. The types of products include Alcoholic Beverages, Soft Drinks and Bar Snacks. The application also allows admins (owners of the pub) to add, view, edit or withdraw products that they sell. Admins are also able to view any past customer orders by either entering a Customer ID or viewing ALL past orders. These are the top 5 functions/features of the application:
